@@ -1,5 +1,5 @@
 import { visionTool } from '@sanity/vision'
-import { defineConfig } from 'sanity'
+import { defineConfig, StudioLogo } from 'sanity'
 import { deskTool } from 'sanity/desk'
 import {
   defineUrlResolver,
@@ -7,6 +7,7 @@ import {
   IframeOptions,
 } from 'sanity-plugin-iframe-pane'
 import { previewUrl } from 'sanity-plugin-iframe-pane/preview-url'
+import StudioNavbar from 'src/components/StudioNavbar'
 
 import {
   apiVersion,
@@ -40,6 +41,12 @@ export default defineConfig({
   schema,
   projectId: 've3fdxa5',
   dataset,
+  studio: {
+components: {
+  logo: StudioLogo,
+  navbar: StudioNavbar
+}
+  },
   plugins: [
     deskTool({
       // `defaultDocumentNode` is responsible for adding a “Preview” tab to the document pane
