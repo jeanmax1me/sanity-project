@@ -1,6 +1,4 @@
-# Working on a Content Workspace , to promote my Travel Industry affiliate links, powered by Next.js and Sanity.io
-
-This project is designed to manage and showcase engaging content for travelers and enthusiasts.
+This project is designed to manage and showcase engaging content for travelers and enthusiasts. The goal is to set up a content workspace using Sanity.io and Next.js, to gain more experience using both and to promote my travel industry affiliate link @ booking.com 
 
 
 
