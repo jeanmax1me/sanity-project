@@ -40,7 +40,7 @@ export default defineConfig({
   theme,
   schema,
   projectId: 've3fdxa5',
-  dataset,
+  dataset: "production",
   studio: {
 components: {
   logo: StudioLogo,
